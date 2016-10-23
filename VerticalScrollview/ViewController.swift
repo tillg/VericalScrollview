@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buttonClicked(_ sender: UIButton) {
+        let buttonName = sender.titleLabel?.text
+        print ("Button clicked: \(buttonName)")
+    }
 
 }
 
